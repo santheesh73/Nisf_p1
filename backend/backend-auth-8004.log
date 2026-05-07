@@ -1,0 +1,30 @@
+{"asctime": "2026-05-07 11:43:25,399", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 11:43:25,401", "levelname": "INFO", "name": "app.main", "message": "startup_llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "app_env": "local", "debug": false, "provider": "groq", "selected_llm_provider": "groq", "configured_model": "llama-3.3-70b-versatile", "has_groq_key": true}
+{"asctime": "2026-05-07 11:43:25,442", "levelname": "INFO", "name": "app.db.mongo", "message": "mongodb_connected", "request_id": null, "job_id": null, "stage": null, "url": "mongodb://localhost:27017", "db": "nisf"}
+{"asctime": "2026-05-07 11:43:25,451", "levelname": "INFO", "name": "app.db.indexes", "message": "mongodb_indexes_verified", "request_id": null, "job_id": null, "stage": null}
+{"asctime": "2026-05-07 11:43:30,923", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "874fb319-7d4d-46bb-a0c1-6209ba3ed013", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.66}
+INFO:     127.0.0.1:55771 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:43:49,943", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "52537384-09f8-4a7b-9ec7-5ff608557e40", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.8}
+INFO:     127.0.0.1:55777 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:43:50,152", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "50b4d97a-7101-4f86-82fe-7f7fdc665701", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 150.49}
+INFO:     127.0.0.1:55777 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:45:23,301", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "2ba85535-1005-4441-afe9-ac248d207d2d", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.71}
+INFO:     127.0.0.1:54855 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:45:23,307", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "efc2b7cf-0d0f-4e4c-8c85-cb17e0032ee1", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.66}
+INFO:     127.0.0.1:54856 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:45:41,059", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "aa2fe0b5-39ff-42e2-9eb6-73a0cd6f129c", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.16}
+INFO:     127.0.0.1:54873 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:45:41,172", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "8cb2919e-5bc6-4889-908a-8fa189f5ed94", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 127.76}
+INFO:     127.0.0.1:54871 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:46:40,375", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "ebf583dc-6e21-48c4-9824-dd4881a756b1", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.12}
+INFO:     127.0.0.1:58776 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:46:40,381", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "2b10b47c-5ba7-44a1-9e2f-24cf55db3b47", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.13}
+INFO:     127.0.0.1:58777 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:47:00,370", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "e4807caf-1746-4384-955c-33729244344b", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 409, "elapsed_ms": 1.71}
+INFO:     127.0.0.1:51535 - "POST /api/v1/auth/register HTTP/1.1" 409 Conflict
+{"asctime": "2026-05-07 11:47:10,053", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "6e70262c-432b-4f91-8fa0-0701b82bdc33", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 207.12}
+INFO:     127.0.0.1:51537 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:47:10,153", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "9538bb07-524e-436e-a476-66a4fbe0321d", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.82}
+INFO:     127.0.0.1:51538 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:47:10,159", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "3c92cb24-a55d-4de6-bf38-8d98ed73498b", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.06}
+INFO:     127.0.0.1:51539 - "GET /health HTTP/1.1" 200 OK

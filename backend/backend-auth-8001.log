@@ -1,0 +1,4 @@
+{"asctime": "2026-05-07 09:57:04,786", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 09:57:04,787", "levelname": "INFO", "name": "app.main", "message": "startup_llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "app_env": "local", "debug": false, "provider": "groq", "selected_llm_provider": "groq", "configured_model": "llama-3.3-70b-versatile", "has_groq_key": true}
+{"asctime": "2026-05-07 09:57:04,829", "levelname": "INFO", "name": "app.db.mongo", "message": "mongodb_connected", "request_id": null, "job_id": null, "stage": null, "url": "mongodb://localhost:27017", "db": "nisf"}
+{"asctime": "2026-05-07 09:57:04,858", "levelname": "INFO", "name": "app.db.indexes", "message": "mongodb_indexes_verified", "request_id": null, "job_id": null, "stage": null}

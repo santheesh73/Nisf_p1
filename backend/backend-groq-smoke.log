@@ -1,0 +1,5 @@
+{"asctime": "2026-05-06 11:16:20,920", "levelname": "INFO", "name": "app.db.mongo", "message": "mongodb_connected", "request_id": null, "job_id": null, "stage": null, "url": "mongodb://localhost:27017", "db": "nisf"}
+{"asctime": "2026-05-06 11:16:24,879", "levelname": "INFO", "name": "httpx", "message": "HTTP Request: POST https://api.groq.com/openai/v1/chat/completions \"HTTP/1.1 401 Unauthorized\"", "request_id": null, "job_id": null, "stage": null}
+{"asctime": "2026-05-06 11:16:24,881", "levelname": "WARNING", "name": "app.providers.llm.groq_provider", "message": "groq_generation_failed_falling_back_to_local", "request_id": null, "job_id": null, "stage": null, "error": "Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"}
+{"asctime": "2026-05-06 11:16:24,886", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "134db219-d9b1-4763-bec4-e8d6a4ab8e63", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/generate/text", "status_code": 200, "elapsed_ms": 788.05}
+INFO:     127.0.0.1:57302 - "POST /api/v1/generate/text HTTP/1.1" 200 OK

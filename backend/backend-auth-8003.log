@@ -1,0 +1,87 @@
+{"asctime": "2026-05-07 10:10:16,173", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 10:10:16,178", "levelname": "INFO", "name": "app.main", "message": "startup_llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "app_env": "local", "debug": false, "provider": "groq", "selected_llm_provider": "groq", "configured_model": "llama-3.3-70b-versatile", "has_groq_key": true}
+{"asctime": "2026-05-07 10:10:16,194", "levelname": "INFO", "name": "app.db.mongo", "message": "mongodb_connected", "request_id": null, "job_id": null, "stage": null, "url": "mongodb://localhost:27017", "db": "nisf"}
+{"asctime": "2026-05-07 10:10:16,204", "levelname": "INFO", "name": "app.db.indexes", "message": "mongodb_indexes_verified", "request_id": null, "job_id": null, "stage": null}
+{"asctime": "2026-05-07 10:10:21,629", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "22b78472-d2cd-446e-b543-6040ba60de91", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.69}
+INFO:     127.0.0.1:56859 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:28:41,399", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "1b675d4c-0e28-4a17-ac34-5adfabd15fd6", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.16}
+INFO:     127.0.0.1:61337 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:28:59,960", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "312a031d-29e9-4520-8ffd-8a7dbdf4cffe", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 146.26}
+INFO:     127.0.0.1:61343 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:00,011", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "f48871ab-1c87-4899-bd6f-6ba28cb8978e", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/me", "status_code": 200, "elapsed_ms": 2.54}
+INFO:     127.0.0.1:61343 - "GET /api/v1/auth/me HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:02,047", "levelname": "INFO", "name": "app.core.rate_limit", "message": "redis_rate_limit_unavailable", "request_id": null, "job_id": null, "stage": null, "error": "Timeout connecting to server"}
+{"asctime": "2026-05-07 11:29:06,131", "levelname": "WARNING", "name": "app.api.v1.optimize", "message": "celery_broker_unavailable_local_fallback", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization"}
+{"asctime": "2026-05-07 11:29:06,136", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "running"}
+{"asctime": "2026-05-07 11:29:06,137", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "optimizing"}
+{"asctime": "2026-05-07 11:29:06,485", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 11:29:11,579", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 11:29:11,890", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 11:29:12,204", "levelname": "INFO", "name": "app.providers.llm", "message": "llm_provider_selected", "request_id": null, "job_id": null, "stage": null, "provider": "groq", "model": "llama-3.3-70b-versatile"}
+{"asctime": "2026-05-07 11:29:12,206", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "generating"}
+{"asctime": "2026-05-07 11:29:13,274", "levelname": "INFO", "name": "httpx", "message": "HTTP Request: POST https://api.groq.com/openai/v1/chat/completions \"HTTP/1.1 200 OK\"", "request_id": null, "job_id": null, "stage": null}
+{"asctime": "2026-05-07 11:29:13,292", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "safety_checking"}
+{"asctime": "2026-05-07 11:29:13,294", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "simulating"}
+{"asctime": "2026-05-07 11:29:13,294", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "scoring"}
+{"asctime": "2026-05-07 11:29:13,297", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "safety_checking"}
+{"asctime": "2026-05-07 11:29:13,297", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "simulating"}
+{"asctime": "2026-05-07 11:29:13,298", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "scoring"}
+{"asctime": "2026-05-07 11:29:13,300", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "safety_checking"}
+{"asctime": "2026-05-07 11:29:13,300", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "simulating"}
+{"asctime": "2026-05-07 11:29:13,301", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "scoring"}
+{"asctime": "2026-05-07 11:29:13,302", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "safety_checking"}
+{"asctime": "2026-05-07 11:29:13,303", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "simulating"}
+{"asctime": "2026-05-07 11:29:13,303", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "scoring"}
+{"asctime": "2026-05-07 11:29:13,306", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "criticizing"}
+{"asctime": "2026-05-07 11:29:13,309", "levelname": "INFO", "name": "app.services.job_service", "message": "job_status_updated", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "status": "completed"}
+{"asctime": "2026-05-07 11:29:13,310", "levelname": "INFO", "name": "app.workers.optimization_tasks", "message": "optimization_completed", "request_id": null, "job_id": "92732ef5-1a2b-4f15-9088-2b37b8ca702b", "stage": "optimization", "duration_ms": 7175.15}
+{"asctime": "2026-05-07 11:29:13,311", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "0964ebb0-6bdf-45f5-b09a-977119731c36", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/optimize", "status_code": 200, "elapsed_ms": 13284.9}
+INFO:     127.0.0.1:61343 - "POST /api/v1/optimize HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:13,333", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "43fddc97-f2c3-41d0-b514-788bd92dd363", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/jobs/92732ef5-1a2b-4f15-9088-2b37b8ca702b/result", "status_code": 200, "elapsed_ms": 10.8}
+INFO:     127.0.0.1:61343 - "GET /api/v1/jobs/92732ef5-1a2b-4f15-9088-2b37b8ca702b/result HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:13,354", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "5ea2bbc3-5fe9-4b47-8cad-d327a060cfa1", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/history", "status_code": 200, "elapsed_ms": 10.38}
+INFO:     127.0.0.1:61343 - "GET /api/v1/history HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:13,464", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "6ee1d2c8-e580-4c4f-8d5b-d8e509609887", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 100.29}
+INFO:     127.0.0.1:61343 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:29:13,479", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "aae39218-56c4-4ec5-b6c6-6f5b517a3268", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/jobs/92732ef5-1a2b-4f15-9088-2b37b8ca702b/result", "status_code": 404, "elapsed_ms": 2.26}
+INFO:     127.0.0.1:61343 - "GET /api/v1/jobs/92732ef5-1a2b-4f15-9088-2b37b8ca702b/result HTTP/1.1" 404 Not Found
+{"asctime": "2026-05-07 11:30:10,923", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "e0f373b0-52a8-4d0c-a4a4-a74eb077d1e4", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.72}
+INFO:     127.0.0.1:59637 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:30:26,628", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "25fdd95d-1528-4a9c-9e00-3a3d364d0251", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.57}
+INFO:     127.0.0.1:59645 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:34:22,024", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "0c868103-6579-4a97-ae10-f7208ca8f460", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.25}
+INFO:     127.0.0.1:63226 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:38:32,451", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "a8c6696d-4c47-4e7e-943c-1aa96a425290", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 117.59}
+INFO:     127.0.0.1:49331 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:11,620", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "f1f9b78c-8131-4138-baf3-847b51897abd", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.19}
+INFO:     127.0.0.1:55709 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:11,627", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "75f4e3db-a2f3-4ece-bc54-a45becfa0d61", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 1.26}
+INFO:     127.0.0.1:55710 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:18,561", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "af84b8c4-bf4e-437f-a018-3f3ac5b33181", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/login", "status_code": 200, "elapsed_ms": 247.59}
+INFO:     127.0.0.1:49736 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:18,630", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "0ba29d5f-c8d8-41cf-b29e-952de51791ec", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.56}
+INFO:     127.0.0.1:51794 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:18,938", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "8d09f4cb-4977-40eb-b7d7-c951d5193230", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 0.96}
+INFO:     127.0.0.1:61146 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:27,377", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "2992aa85-dc5f-4734-bfae-a841577bfbe6", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 0.86}
+INFO:     127.0.0.1:61150 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:27,691", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "5c375c26-a4eb-474d-8663-fa630b2d6120", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.13}
+INFO:     127.0.0.1:61652 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:49,061", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "d8d88a40-dd0a-4d94-96af-0155695d5013", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.06}
+INFO:     127.0.0.1:51445 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:39:57,750", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "b1033b07-71c3-403d-96f4-7629c1e728fb", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.31}
+INFO:     127.0.0.1:64567 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:40:19,050", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "f3305257-2bae-4acb-a406-93a4d2639be5", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.13}
+INFO:     127.0.0.1:64492 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:40:27,746", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "dde9904e-b6ba-4ba2-8969-6a8dcbcead22", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 0.92}
+INFO:     127.0.0.1:63659 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:40:49,057", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "f0b10b20-5359-4ca9-a7a3-ab607b826d24", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 0.63}
+INFO:     127.0.0.1:60133 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:40:57,747", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "30c94911-dd0b-47ac-a409-83c13f7566a1", "job_id": null, "stage": "http", "method": "GET", "path": "/health", "status_code": 200, "elapsed_ms": 1.25}
+INFO:     127.0.0.1:64379 - "GET /health HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:42:31,899", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "04ee6822-fa39-4a58-b7f2-2517440d4c49", "job_id": null, "stage": "http", "method": "GET", "path": "/api/v1/auth/config", "status_code": 200, "elapsed_ms": 0.65}
+INFO:     127.0.0.1:55742 - "GET /api/v1/auth/config HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:43:01,341", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "5bb07a9b-3a81-4583-b207-c6e34c888009", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 119.14}
+INFO:     127.0.0.1:55751 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
+{"asctime": "2026-05-07 11:43:01,390", "levelname": "INFO", "name": "nisf.request", "message": "request_completed", "request_id": "b4aba80d-03d0-4bf9-9e46-6581cc6df3ce", "job_id": null, "stage": "http", "method": "POST", "path": "/api/v1/auth/register", "status_code": 200, "elapsed_ms": 122.61}
+INFO:     127.0.0.1:55754 - "POST /api/v1/auth/register HTTP/1.1" 200 OK
