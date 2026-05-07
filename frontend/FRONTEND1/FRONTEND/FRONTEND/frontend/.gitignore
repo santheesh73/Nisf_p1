@@ -1,0 +1,30 @@
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+**/.env
+**/.env.*
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+
+# Cache and coverage
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+coverage.xml
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

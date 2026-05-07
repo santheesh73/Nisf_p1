@@ -1,0 +1,35 @@
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+**/.env
+**/.env.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and tests
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+coverage.xml
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

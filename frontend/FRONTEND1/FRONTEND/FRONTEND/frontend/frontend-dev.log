@@ -1,0 +1,22 @@
+
+> nisf-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m1228[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m9:19:54 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/GenerateText.jsx, /src/index.css[22m
+[2m9:20:01 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/OptimizeText.jsx[22m
+[2m9:20:08 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/JobProgress.jsx[22m
+[2m9:20:12 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/JobResult.jsx, /src/index.css[22m
+[2m9:50:40 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/Dashboard.jsx, /src/pages/Settings.jsx, /src/pages/Templates.jsx, /src/pages/ScoreOnly.jsx, /src/pages/Feedback.jsx, /src/pages/GenerateText.jsx, /src/pages/History.jsx, /src/pages/OptimizeText.jsx, /src/pages/JobResult.jsx, /src/pages/JobProgress.jsx, /src/components/layout/Topbar.jsx[22m
+[2m9:51:11 am[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m9:52:01 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/routes/AppRoutes.jsx, /src/index.css[22m
+[2m9:52:17 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Topbar.jsx, /src/index.css[22m
+[2m9:55:16 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/routes/AppRoutes.jsx, /src/index.css[22m
+[2m10:01:25 am[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m10:01:25 am[22m [36m[1m[vite][22m[39m server restarted.
+[2m11:30:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/index.css[22m
+[2m11:30:41 am[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m11:30:41 am[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m

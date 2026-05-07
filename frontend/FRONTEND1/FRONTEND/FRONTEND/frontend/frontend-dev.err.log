@@ -1,0 +1,6 @@
+[2m9:36:51 am[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /health[39m
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[2m9:37:52 am[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /health[39m
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)

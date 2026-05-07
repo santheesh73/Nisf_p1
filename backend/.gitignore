@@ -1,0 +1,40 @@
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+**/.env
+**/.env.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pytest cache and temporary test files
+.pytest_cache/
+pytest-cache-files-*/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
